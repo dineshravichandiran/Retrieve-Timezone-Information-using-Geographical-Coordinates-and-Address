@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retrieve-Timezone-Information-using-Geographical-Coordinates-and-Address.git</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Section 1 Curret Time Zone -->
+    <section id="Current-time">
+        <div class="head-Wrraper">
+            <h1 id="Current-time-head">TimeZone API <br>
+                Your Current Time Zone</h1>
+        </div>
+        <div class="table-wrraper">
+            <table id="Current-time-table">
+                <tr>
+                    <td>Name Of Time Zone :</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Lat:</td>
+                    <td></td>
+                    <td>Long:</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Offset STD:</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Offset STD Seconds:</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Offset DST:</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Offset DST Seconds:</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Country:</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Postcode:</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>City:</td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section id="address-time-zone">
+        <h2 id="address-time-head">Enter Address</h2>
+        <form id="address-time-zone-form">
+            <input type="text" placeholder="Adress" name="address">
+            <button type="submit">Submit</button>
+        </form>
+        <div id="error-message"> </div>
+        <div class="table-wrraper" id="result-table-wrraper">
+
+        </div>
+
+    </section>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
